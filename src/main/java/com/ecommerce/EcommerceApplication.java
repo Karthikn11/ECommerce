@@ -7,8 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EntityScan(basePackages = "com.ecommerce.entity")
-@EnableJpaRepositories(basePackages = "com.ecommerce.repository")
 public class EcommerceApplication {
 
 	public static void main(String[] args) {
